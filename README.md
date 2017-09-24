@@ -17,14 +17,14 @@ wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://raw.githubusercontent.
 wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://raw.githubusercontent.com/yanshibin/Debian-Ubuntu-BBR-POWERED/master/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh -f v4.11.9
 ```
 ### 说明:
-  执行过程中会重新编译模块.
-  模块默认为开机自动加载.
-  模块名称:tcp_bbr_powered
-  可用 modprobe tcp_bbr_powered 命令进行加载模块.
-  可执行 lsmod |grep 'bbr_powered' 
-  结果不为空,则加载模块成功
-  可执行 sysctl -w net.ipv4.tcp_congestion_control=bbr_powered 使用此模块.
-  以上只是说明,直接使用一键脚本即可.
+  执行过程中会重新编译模块.  
+  模块默认为开机自动加载.  
+  模块名称:tcp_bbr_powered  
+  可用 modprobe tcp_bbr_powered 命令进行加载模块.  
+  可执行 lsmod |grep 'bbr_powered'   
+  结果不为空,则加载模块成功  
+  可执行 sysctl -w net.ipv4.tcp_congestion_control=bbr_powered 使用此模块.  
+  以上只是说明,直接使用一键脚本即可.  
 ### 注意事项:
   如遇报错:Error! Header not be matched by Linux Kernel.
   请用使用本博客提供的脚本重新开启BBR,或使用-f参数.可参考本篇中的准备步骤.
