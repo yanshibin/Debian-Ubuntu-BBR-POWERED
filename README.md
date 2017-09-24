@@ -5,7 +5,7 @@
 或者直接执行此命令进行开启.
 
 ```
-wget --no-check-certificate -qO 'BBR.sh' 'https://moeclub.org/attachment/LinuxShell/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
+wget --no-check-certificate -qO 'BBR.sh' 'https://raw.githubusercontent.com/yanshibin/Debian-Ubuntu-TCP-BBR-/master/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
 ```
 注意:执行此命令会自动重启.
 一键地址:
