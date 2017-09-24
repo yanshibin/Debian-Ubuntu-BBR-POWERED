@@ -10,11 +10,11 @@ wget --no-check-certificate -qO 'BBR.sh' 'https://raw.githubusercontent.com/yans
 注意:执行此命令会自动重启.
 一键地址:
 ```
-wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://moeclub.org/attachment/LinuxShell/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
+wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://raw.githubusercontent.com/yanshibin/Debian-Ubuntu-BBR-POWERED/master/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
 ```
 指定内核版本(以v4.11.9内核版本为例):
 ```
-wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://moeclub.org/attachment/LinuxShell/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh -f v4.11.9
+wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://raw.githubusercontent.com/yanshibin/Debian-Ubuntu-BBR-POWERED/master/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh -f v4.11.9
 ```
 ### 说明:
   执行过程中会重新编译模块.
