@@ -26,12 +26,12 @@ wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://raw.githubusercontent.
   可执行 sysctl -w net.ipv4.tcp_congestion_control=bbr_powered 使用此模块.  
   以上只是说明,直接使用一键脚本即可.  
 ### 注意事项:
-  如遇报错:Error! Header not be matched by Linux Kernel.
-  请用使用本博客提供的脚本重新开启BBR,或使用-f参数.可参考本篇中的准备步骤.
-  如遇报错:Error! Install make或Error! Install gcc.
-  首先尝试apt-get update,再次执行此脚本.
-  如果未解决想办法自行安装gcc(>=4.9),或切换系统后再试.
-  本脚本在Debian8,Debian9,Ubuntu16.04上通过测试.
+  如遇报错:Error! Header not be matched by Linux Kernel.  
+  请用使用本博客提供的脚本重新开启BBR,或使用-f参数.可参考本篇中的准备步骤.  
+  如遇报错:Error! Install make或Error! Install gcc.  
+  首先尝试apt-get update,再次执行此脚本.  
+  如果未解决想办法自行安装gcc(>=4.9),或切换系统后再试.  
+  本脚本在Debian8,Debian9,Ubuntu16.04上通过测试.  
 ### 引用评论中提供的在Ubuntu安装gcc-4.9的方法:
 ```
   apt-get install -y software-properties-common
